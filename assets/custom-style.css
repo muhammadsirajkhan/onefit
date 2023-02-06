@@ -23,7 +23,7 @@ header.header {
     margin-left: 0;
 }
 .newsletter-form {
-    margin-left: 0;
+    margin-left: 0 !important;
 }
 .footer__content-bottom {
     display: none;
@@ -50,4 +50,10 @@ h2.footer-block__heading {
     font-size: 16px;
     padding: 15px 55px;
     padding-left: 0;
+}
+.newsletter-form__field-wrapper button {
+    position: absolute;
+    right: 0;
+    background-color: #105d9f !important;
+    padding: 14px 16px;
 }
