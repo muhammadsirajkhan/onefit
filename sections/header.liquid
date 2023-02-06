@@ -254,7 +254,8 @@
 </div>
 </header>
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} {% if section.settings.menu != blank %} header--has-menu{% endif %}">
-    <div class="container"><div class="row">
+    <div class="container">
+      <div class="row align-items-center">
       
       
       
@@ -333,7 +334,7 @@
         {%- endif -%}
         {%- if section.settings.logo_position != 'middle-center' -%}
           {%- if request.page_type == 'index' -%}
-            <h1 class="header__heading">
+            <h1 class="header__heading text-center">
           {%- endif -%}
               <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
                 {%- if section.settings.logo != blank -%}
@@ -483,7 +484,7 @@
           {%- endif -%}
         {%- endif -%}
         <div class="col-md-4">
-          <div class="header__icons">
+          <div class="header__icons justify-content-end">
             <details-modal class="header__search">
               <details>
                 <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
