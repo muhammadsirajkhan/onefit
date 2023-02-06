@@ -217,22 +217,33 @@
         "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/service-ic-1.png",
+            "title": "Free Shipping",
+            "text": "<p>Free Shipping for orders over £130<\/p>"
           }
         },
         "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/service-ic-1.png",
+            "title": "Free Shipping",
+            "text": "<p>Free Shipping for orders over £130<\/p>"
+          }
+        },
+        "664ab27d-631f-4faf-8765-d4511d669f00": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-ic-1.png",
+            "title": "Free Shipping",
+            "text": "<p>Free Shipping for orders over £130<\/p>"
           }
         }
       },
       "block_order": [
         "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-0",
         "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-1",
-        "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-2"
+        "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-2",
+        "664ab27d-631f-4faf-8765-d4511d669f00"
       ],
       "settings": {
       }
