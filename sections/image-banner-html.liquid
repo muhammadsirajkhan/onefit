@@ -3,7 +3,7 @@
 
 
 <section class="main-banner">
-  <div class="main-banner-item" style="background-image: url({% for setting in settings %}  {% if setting.id == 'image' %}    {% assign image = setting.value %}   {{ image.url }}  {% endif %}      {% endfor %} );">
+  <div class="main-banner-item" style="background-image: url({{ sections.image-banner.settings.image | image_url }});">
     <div class="container">
       <div class="main-banner-content text-center text-light  ">
         <h3>End of year Sale</h3>
