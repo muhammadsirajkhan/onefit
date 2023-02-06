@@ -164,8 +164,9 @@
           "045baad7-ff90-42c4-8a06-d0d60fb5b10e": {
             "type": "image",
             "settings": {
-              "image_width": 100,
-              "alignment": "center"
+              "image": "shopify:\/\/shop_images\/logo.png",
+              "image_width": 200,
+              "alignment": ""
             }
           },
           "footer-2": {
