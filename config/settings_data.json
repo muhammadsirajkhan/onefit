@@ -161,35 +161,44 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "045baad7-ff90-42c4-8a06-d0d60fb5b10e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/logo.png",
+              "image_width": 200,
+              "alignment": ""
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "QUICK LINKS",
               "menu": "footer"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
+              "heading": "USEFUL LINKS",
               "menu": "footer"
             }
           },
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "NEWSLETTER",
+              "subtext": "<p>Subscribe to our Newsletter for the latest updates!<\/p>"
             }
           }
         },
         "block_order": [
+          "045baad7-ff90-42c4-8a06-d0d60fb5b10e",
           "footer-0",
           "footer-1",
           "footer-2"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "inverse",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
