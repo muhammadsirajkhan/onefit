@@ -31,3 +31,23 @@ header.header {
 .footer__copyright p {
     font-size: 16px;
 }
+.footer-block p, .footer-block__details-content .list-menu__item--link {
+    font-size: 16px;
+    color: #fff;
+}
+
+h2.footer-block__heading {
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 29px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+}
+
+.footer-block .footer-block-image p {
+    font-size: 16px;
+    padding: 15px 55px;
+    padding-left: 0;
+}
