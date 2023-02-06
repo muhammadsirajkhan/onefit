@@ -359,7 +359,7 @@
           {%- if section.settings.menu_type_desktop == 'dropdown' -%}
           
             <div class="col-md-4">
-              <nav class="header__inline-menu">
+              <nav class="header__inline-menu header-nav">
                 <ul class="list-menu list-menu--inline" role="list">
                   {%- for link in section.settings.menu.links -%}
                     <li>
@@ -411,7 +411,7 @@
             </div>
           {%- else -%}
             <div class="col-md-4">
-              <nav class="header__inline-menu">
+              <nav class="header__inline-menu header-nav">
                 <ul class="list-menu list-menu--inline" role="list">
                   {%- for link in section.settings.menu.links -%}
                     <li>
