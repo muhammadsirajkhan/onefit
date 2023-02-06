@@ -57,3 +57,6 @@ h2.footer-block__heading {
     background-color: #105d9f !important;
     padding: 14px 16px;
 }
+.main-banner .main-banner-content h3, .main-banner .main-banner-content h2 {
+    color: #fff;
+}
