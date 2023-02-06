@@ -1,3 +1,6 @@
 .top-header .header__icons {
     justify-content: flex-end;
 }
+.top-header .header-icons ul li a {
+    font-size: 16px;
+}
