@@ -31,7 +31,7 @@ html {
   font-family: "Poppins", sans-serif;
 }
 ::selection {
-  background-color: var(--c1);
+  background-color: #105d9f;
   color: #fff;
 }
 a {
@@ -115,7 +115,7 @@ dl {
 
 .menu-btn a i {
   font-size: 30px;
-  color: var(--c1);
+  color: #105d9f;
 }
 .responsive-menu-btn a {
   width: max-content;
@@ -177,7 +177,7 @@ ul {
 }
 
 .header-nav ul li a {
-  font-family: var(--font2);
+  font-family: "Lato", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 700;
@@ -219,12 +219,12 @@ header.header {
   padding: 10px 0;
 }
 .donate-box .btn {
-  background: var(--c1);
-  border: 1px solid var(--c1);
+  background: #105d9f;
+  border: 1px solid #105d9f;
 }
 
 .donate-box .btn:hover {
-  color: var(--c1);
+  color: #105d9f;
   background: transparent;
 }
 .main-banner-item {
@@ -240,14 +240,14 @@ header.header {
 
 .main-banner-content h3 {
   font-size: 74px;
-  font-family: var(--font3);
+  font-family: "Festive", cursive;
   -webkit-text-stroke: 1px #000;
   position: relative;
 }
 
 .main-banner-content h2 {
   font-size: 160px;
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
   -webkit-text-stroke: 1px #000;
   margin: -59px 0 -30px;
 }
@@ -306,7 +306,7 @@ section.services-boxes {
 }
 
 .title h2 {
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
   font-size: 60px;
   margin: 0;
 }
@@ -534,7 +534,7 @@ section.overlay-banners {
 
 .overlay-banner-con h2 {
   font-size: 100px;
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
 }
 
 .overlay-banner-con .btn {
@@ -574,13 +574,13 @@ section.overlay-banners {
 }
 
 .content-banner-content h2 {
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
   font-size: 72px;
   margin-bottom: -20px;
 }
 
 .content-banner-content h3 {
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
   font-size: 50px;
 }
 
@@ -649,12 +649,12 @@ section.overlay-banners {
 }
 
 .footersocial-icon ul li a:hover {
-  background-color: var(--c1);
+  background-color: #105d9f;
   color: #fff;
 }
 .news-btn a {
   color: #ffff;
-  background-color: var(--c1);
+  background-color: #105d9f;
   padding: 14px 50px;
   border-radius: 0px 8px 8px 0px;
 }
@@ -685,14 +685,14 @@ form {
 .footer__nav .btnn {
   position: absolute;
   right: 0;
-  background-color: var(--c1);
+  background-color: #105d9f;
   padding: 14px 16px;
 }
 
 .footer__nav .btnn {
   position: absolute;
   right: 0;
-  background-color: var(--c1);
+  background-color: #105d9f;
   padding: 14px 16px;
 }
 .footer__nav ul li {
@@ -763,7 +763,7 @@ section.testimonials-sec {
   opacity: 0.5;
 }
 .content-boxes-con :is(h2, .heading) {
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
   font-size: 60px;
 }
 .content-boxes-con .heading--sm {
@@ -782,7 +782,7 @@ section.testimonials-sec {
   padding: 0.25rem 0;
 }
 .content-boxes-con ul > li::marker {
-  color: var(--c1);
+  color: #105d9f;
 }
 
 section.contact-sec {
@@ -795,11 +795,11 @@ section.contact-sec {
 }
 
 .contact-form h5 span {
-  color: var(--c2);
+  color: #bd1802;
 }
 .contact-form h2 {
   font-size: 60px;
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
 }
 
 .contact-item {
@@ -854,13 +854,13 @@ section.contact-sec {
 }
 .filter-item select {
   border: 0;
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
   font-size: 23px;
 }
 
 .side-bar-content h3 {
   font-size: 40px;
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
   margin-bottom: 20px;
 }
 
@@ -1015,7 +1015,7 @@ section.product-detail-sec {
 
 .product-tags ul li {
   font-weight: 600;
-  color: var(--c1);
+  color: #105d9f;
   text-transform: capitalize;
   position: relative;
 }
@@ -1043,7 +1043,7 @@ section.product-detail-sec {
 
 .product-detail-con h3 {
   /* font-weight: 600; */
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
   font-size: 40px;
 }
 .reviews-box {
@@ -1100,7 +1100,7 @@ section.product-detail-sec {
 }
 
 .product-tabs-btns .nav-tabs li.nav-item .nav-link.active {
-  background: var(--c1);
+  background: #105d9f;
   color: #fff;
 }
 .product-tabs-con {
@@ -1113,7 +1113,7 @@ section.product-detail-sec {
   justify-content: flex-start;
 }
 .rating span {
-  color: var(--c1);
+  color: #105d9f;
   font-size: 24px;
 }
 .addto-cart-btn {
@@ -1368,7 +1368,7 @@ section.checke-out {
   padding-left: 10px;
 }
 .cart__productDescription h5 {
-  color: var(--c2);
+  color: #bd1802;
 }
 .checkout-btn .btn {
   font-size: 18px;
@@ -1400,7 +1400,7 @@ section.my-cart {
 }
 
 .order-grand-total h4.total {
-  color: var(--c1);
+  color: #105d9f;
   font-size: 27px;
 }
 
@@ -1408,7 +1408,7 @@ section.my-cart {
   font-size: 36px;
 }
 .order-detail-line h4 span {
-  color: var(--c1);
+  color: #105d9f;
   font-weight: 400;
   margin-left: 10px;
 }
@@ -1422,7 +1422,7 @@ section.my-cart {
   margin-bottom: 13px;
 }
 .my-cart-box h3 span {
-  color: var(--c1);
+  color: #105d9f;
   font-weight: 400;
   margin-left: 10px;
   font-weight: 500;
@@ -1487,7 +1487,7 @@ form.payment label {
 }
 
 .donate-title h3 {
-  font-family: var(--fheading);
+  font-family: "Bebas Neue", cursive;
   font-size: 44px;
 }
 
@@ -1562,7 +1562,7 @@ button.paypal {
 
 .fancy-link {
   padding: 0.15rem;
-  color: var(--c1);
+  color: #105d9f;
   position: relative;
   isolation: isolate;
 }
@@ -1570,7 +1570,7 @@ button.paypal {
   content: "";
   width: 100%;
   height: 2px;
-  border: 1px dashed var(--c1);
+  border: 1px dashed #105d9f;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1578,8 +1578,8 @@ button.paypal {
   transition: all 300ms ease-in-out;
 }
 .fancy-link:hover::after {
-  border: 1px solid var(--c2);
+  border: 1px solid #bd1802;
 }
 .fancy-link:hover {
-  color: var(--c2);
+  color: #bd1802;
 }
