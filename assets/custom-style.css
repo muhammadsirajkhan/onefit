@@ -25,3 +25,9 @@ header.header {
 .newsletter-form {
     margin-left: 0;
 }
+.footer__content-bottom {
+    display: none;
+}
+.footer__copyright p {
+    font-size: 16px;
+}
