@@ -128,7 +128,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""
@@ -145,7 +145,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
+          "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_width": 90,
           "logo_position": "middle-center",
           "menu": "main-menu",
