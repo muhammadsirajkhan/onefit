@@ -35,6 +35,7 @@
         "template--17908858192192__88dec961-238f-4748-8dbb-83a01b23268a-1675683301d3163d8b-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/8a53597c263f41c789bfc8530ed6378f.jpg",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -250,6 +251,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "812a4f0c-ac4c-424a-8a1e-2843925fb107": {
+      "type": "image-banner-html",
+      "blocks": {
+        "template--17908858192192__812a4f0c-ac4c-424a-8a1e-2843925fb107-1675692149707e59e5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17908858192192__812a4f0c-ac4c-424a-8a1e-2843925fb107-1675692149707e59e5-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17908858192192__812a4f0c-ac4c-424a-8a1e-2843925fb107-1675692149707e59e5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17908858192192__812a4f0c-ac4c-424a-8a1e-2843925fb107-1675692149707e59e5-0",
+        "template--17908858192192__812a4f0c-ac4c-424a-8a1e-2843925fb107-1675692149707e59e5-1",
+        "template--17908858192192__812a4f0c-ac4c-424a-8a1e-2843925fb107-1675692149707e59e5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/8a53597c263f41c789bfc8530ed6378f.jpg",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -259,6 +301,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "812a4f0c-ac4c-424a-8a1e-2843925fb107"
   ]
 }
