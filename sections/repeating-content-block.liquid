@@ -1,0 +1,84 @@
+{% schema %}
+  {
+    "name": "Repeating Content Block Custom",
+    "settings": [
+      {
+        "type": "block",
+        "blocks": [
+          {
+            "type": "image",
+            "src": "image",
+            "alt": "alt_text"
+          }, {
+            "type": "text",
+            "content": "heading",
+            "label": "Heading"
+          }, {
+            "type": "rich_text",
+            "content": "text",
+            "label": "Text"
+          }
+        ],
+        "label": "Content Block"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "repeater",
+        "label": "Repeater",
+        "name": "repeater",
+        "settings": [
+          {
+            "type": "block",
+            "blocks": [
+              {
+                "type": "image",
+                "src": "image",
+                "alt": "alt_text"
+              }, {
+                "type": "text",
+                "content": "heading",
+                "label": "Heading"
+              }, {
+                "type": "rich_text",
+                "content": "text",
+                "label": "Text"
+              }
+            ],
+            "label": "Content Block",
+            "name": "content_block"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Repeating Content Custom",
+        "category": "Custom",
+        "settings": {
+          "repeater": [
+            {
+              "content_block": [
+                {
+                  "image": {
+                    "url": "https://cdn.shopify.com/s/files/1/0757/9955/files/New_Post.png?126785",
+                    "alt": "Alt Text"
+                  },
+                  "heading": "Heading 1",
+                  "text": "Text 1"
+                }, {
+                  "image": {
+                    "url": "https://cdn.shopify.com/s/files/1/0757/9955/files/New_Post.png?126785",
+                    "alt": "Alt Text"
+                  },
+                  "heading": "Heading 2",
+                  "text": "Text 2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+{% endschema %}
