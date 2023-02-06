@@ -200,7 +200,7 @@
         "settings": {
           "color_scheme": "inverse",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "Subscribe to our Newsletter for the latest updates!",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
