@@ -15,3 +15,10 @@ header.header {
 .header-nav ul li a {
     padding: 0;
 }
+.header__heading a.header__heading-link,
+.top-header {
+    padding: 0;
+}
+.header__inline-menu {
+    margin-left: 0;
+}
