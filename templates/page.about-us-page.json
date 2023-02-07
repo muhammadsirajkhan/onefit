@@ -6,9 +6,20 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "3d7d6d52-e3bc-4e19-a35a-fce8e9845a31": {
+      "type": "about-page-section",
+      "settings": {
+        "title_1": "Multicolumn",
+        "content_1": "<p>Talk about your brand<\/p><p>asdasdasdasd<br\/>asdasd<\/p>",
+        "image_1": "shopify:\/\/shop_images\/f0efccb22cdaffc16a0df720ae98f3cb_4a6b6630-cc3a-43ff-81e4-40d5c4d31682.jpg",
+        "content_2": "<p>Talk about your brandasdasda<\/p><p>asdasdad<\/p>",
+        "image_2": "shopify:\/\/shop_images\/8a53597c263f41c789bfc8530ed6378f.jpg"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "3d7d6d52-e3bc-4e19-a35a-fce8e9845a31"
   ]
 }
