@@ -16,8 +16,6 @@
   </div>
 </section>
 
-{{ section.settings.title | escape }}
-{{ section.settings.image | image_url }}
 
 {% schema %}
   {
@@ -39,18 +37,18 @@
         "type": "text",
         "id": "title_main",
         "default": "Multicolumn",
-        "label": "t:sections.multicolumn.settings.title.label"
+        "label": "Main Title"
       },
       {
         "type": "text",
         "id": "title",
         "default": "Multicolumn",
-        "label": "t:sections.multicolumn.settings.title.label"
+        "label": "Title"
       }, {
         "type": "text",
         "id": "content",
         "default": "Multicolumn",
-        "label": "t:sections.multicolumn.settings.title.label"
+        "label": "Content"
       }, {
         "type": "text",
         "id": "button_text",
