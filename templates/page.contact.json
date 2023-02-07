@@ -10,7 +10,12 @@
     "54dda65e-453a-4294-bfe8-034b123a1107": {
       "type": "contact-form-custom",
       "settings": {
-        "heading": "Contact form"
+        "image": "shopify:\/\/shop_images\/f0efccb22cdaffc16a0df720ae98f3cb_4a6b6630-cc3a-43ff-81e4-40d5c4d31682.jpg",
+        "heading": "Contact form",
+        "content": "Contact form",
+        "phone": "+012 345 789",
+        "email": "demo@mail.com",
+        "address": "132 Demo Address"
       }
     }
   },
