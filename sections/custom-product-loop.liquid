@@ -1,0 +1,25 @@
+{% for product in collections['collection'].products %}
+  <h2>{{ product.title }}</h2>
+  <p>{{ product.price | money }}</p>
+  <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="{{ product.featured_image.alt | escape }}">
+{% endfor %}
+
+{% schema %}
+  {
+    "name": "Custom Product",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "t:sections.featured-collection.settings.collection.label"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Product"
+      }
+    ]
+  }
+{% endschema %}
