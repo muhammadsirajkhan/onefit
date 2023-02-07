@@ -20,7 +20,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+body p{
+  font-size: 16px;
+}
 /* General Styling */
 * {
   padding: 0;
