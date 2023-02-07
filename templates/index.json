@@ -247,6 +247,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "8e102c2d-d773-40b7-9334-ec224cf037a8": {
+      "type": "categories-repeater-block",
+      "blocks": {
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-ic-1.png",
+            "title": "Column1231",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        },
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "button_link": ""
+          }
+        },
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-0",
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-1",
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -256,6 +290,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "8e102c2d-d773-40b7-9334-ec224cf037a8"
   ]
 }
