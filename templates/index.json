@@ -312,6 +312,12 @@
       "settings": {
         "title": "Multicolumn"
       }
+    },
+    "cf5174d5-f7e3-4f0a-a584-0fad819811d9": {
+      "type": "custom-product-loop",
+      "settings": {
+        "collection": "frontpage"
+      }
     }
   },
   "order": [
@@ -324,6 +330,7 @@
     "ae0b246b-b0c8-4892-acbf-0d87b3a5f3b4",
     "2173a0ea-80bf-4ec5-871e-b7ca0f3e0533",
     "8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb",
-    "be1532cf-adb1-4769-a124-bee2f7d1a78d"
+    "be1532cf-adb1-4769-a124-bee2f7d1a78d",
+    "cf5174d5-f7e3-4f0a-a584-0fad819811d9"
   ]
 }
