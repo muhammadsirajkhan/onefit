@@ -1,6 +1,6 @@
-<section class="upcoming-products" style="background-image: url({{ section.settings.image_bg }});">
+<section class="upcoming-products" style="background-image: url({{ section.settings.image_bg | image_url  }});">
   <div class="upcome-pro-img">
-    <img src="{{ section.settings.image_left }}" alt="">
+    <img src="{{ section.settings.image_left | image_url }}" alt="">
   </div>
   <div class="upcome-content">
     <h3>{{ section.settings.title }}</h3>
@@ -12,7 +12,7 @@
     </div>
   </div>
   <div class="upcome-pro-img">
-    <img src="{{ section.settings.image_right }}" alt="">
+    <img src="{{ section.settings.image_right | image_url }}" alt="">
   </div>
 
 </section>
