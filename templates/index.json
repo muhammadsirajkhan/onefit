@@ -324,8 +324,18 @@
         "template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-1"
       ],
       "settings": {
-        "title": "Daily Drops asdf",
-        "button_link": ""
+        "title": "Daily Drops asdf"
+      }
+    },
+    "ae0b246b-b0c8-4892-acbf-0d87b3a5f3b4": {
+      "type": "outfits-banner-custom",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mian-banner-img.png",
+        "title_main": "123123",
+        "title": "Multicolumn",
+        "content": "Multicolumn",
+        "button_text": "shop",
+        "button_link": "shopify:\/\/blogs\/news"
       }
     }
   },
@@ -339,6 +349,7 @@
     "multicolumn",
     "8e102c2d-d773-40b7-9334-ec224cf037a8",
     "35417832-bb6e-49d3-8daf-e2c3cce033fb",
-    "34fd40d4-1d69-4e8c-a926-efbf7637219d"
+    "34fd40d4-1d69-4e8c-a926-efbf7637219d",
+    "ae0b246b-b0c8-4892-acbf-0d87b3a5f3b4"
   ]
 }
