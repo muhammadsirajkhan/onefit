@@ -1,95 +1,20 @@
 <section class="testimonials-sec">
   <div class="container">
     <div class="title text-center">
-      <h2>REVIEWS FROM OUR CHERISHED CUSTOMERS</h2>
+      <h2>{{ section.settings.title }}</h2>
     </div>
     <div class="row testimonial-slider">
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>My busy daily routine needs new outfits regularly, so anytime I’m feeling short on clothes my first stop is One Fit. I never close their site without multiple purchases going through!!</q>
-          <img src="assets/images/person-img-1.png" alt="">
-          <h3>Blanca Hines</h3>
+
+      {%- for block in section.blocks -%}
+        <div class="col-md-4">
+          <div class="testimonial-box">
+            <q>{{ block.settings.content }}</q>
+            <img src="{{ block.settings.image | image_url }}" alt="">
+            <h3>{{ block.settings.title }}</h3>
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>I’m always worrying about what to gift my friends, luckily One Fit is always full of variety and options for me to choose from even if I need different types of gifts</q>
-          <img src="assets/images/person-img-2.png" alt="">
-          <h3>Elsa Schmidt</h3>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>One Fit literally has the best collections every time I browse their site. Whenever I need to assemble an outfit for any occasion I know that I can count on their collection to have something for me!</q>
-          <img src="assets/images/person-img-3.png" alt="">
-          <h3>Misty Abbott</h3>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>Their clothing is so stylish and affordable, and the best part is I feel empowered looking the best I can in each of their collections!</q>
-          <img src="assets/images/person-img-1.png" alt="">
-          <h3>Sonia Burke</h3>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>I regularly wear a complete outfit from One Fit’s activewear collection for my daily morning jogs and exercise routine, and I can happily say that their comfort level is beyond compare!
-          </q>
-          <img src="assets/images/person-img-2.png" alt="">
-          <h3>Jesse Taylor</h3>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>Any time I need a gift for the women in my life, I know that this store will have the best fit for them. My mother absolutely loves One Fit’s handbags and my daughter is regularly browsing their clothing collections!</q>
-          <img src="assets/images/person-img-3.png" alt="">
-          <h3>Van Brown</h3>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>One Fit truly is the brand that anyone fits! I can never find something according to my tastes on other brands but One Fit is a true savior</q>
-          <img src="assets/images/person-img-1.png" alt="">
-          <h3>Olivia Carr</h3>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>Me and my daughters always hit up their website when we feel the need to go on a shopping spree, their quality never disappoints!!</q>
-          <img src="assets/images/person-img-2.png" alt="">
-          <h3>Stephanie Conner</h3>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>I am pretty sure my entire collection of jewelry is made of One Fit’s products, haven’t found any other affordable brand with such gorgeous designs</q>
-          <img src="assets/images/person-img-3.png" alt="">
-          <h3>Freda Murray</h3>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>After moving to a new city and a new job, I was in need of a wardrobe reset, im grateful that I found One Fit!</q>
-          <img src="assets/images/person-img-1.png" alt="">
-          <h3>Kristy Warner</h3>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>Accessories are a huge part of my look and my collection is full of items from One Fit! They’re always simple yet elegant and have such amazing quality
-          </q>
-          <img src="assets/images/person-img-2.png" alt="">
-          <h3>Katrina Barker</h3>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="testimonial-box">
-          <q>I have an entire collection of shoes from their brand, they fit any occasion, whether I have to go to work, do my exercise or go to a fancy event!!</q>
-          <img src="assets/images/person-img-3.png" alt="">
-          <h3>Bobbie Reyes</h3>
-        </div>
-      </div>
+      {%- endfor -%}
+
     </div>
   </div>
 </section>
@@ -106,10 +31,6 @@
         "id": "title",
         "default": "Multicolumn",
         "label": "t:sections.multicolumn.settings.title.label"
-      }, {
-        "type": "url",
-        "id": "button_link",
-        "label": "t:sections.multicolumn.settings.button_link.label"
       }
     ],
     "blocks": [
@@ -120,16 +41,17 @@
           {
             "type": "image_picker",
             "id": "image",
-            "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+            "label": "Image"
           }, {
             "type": "text",
             "id": "title",
             "default": "Column",
-            "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+            "label": "Name"
           }, {
-            "type": "url",
-            "id": "button_link",
-            "label": "t:sections.multicolumn.settings.button_link.label"
+            "type": "text",
+            "id": "content",
+            "default": "Column",
+            "label": "Content"
           }
         ]
       }
