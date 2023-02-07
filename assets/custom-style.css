@@ -63,3 +63,8 @@ h2.footer-block__heading {
 .contact-form {
     width: 100%;
 }
+.field__label, .customer .field label {
+    top: 30px;
+    left: 10px;
+    transform: translateY(-50%);
+}
