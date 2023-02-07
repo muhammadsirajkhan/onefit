@@ -6,14 +6,14 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="contact-img">
-                                <img src="assets/images/contact-img-1.png" alt="">
+                                <img src="{{ section.settings.image | image_url }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="row align-items-center">
                                 <div class="col-12">
-                                    <h2>CONTACT DETAILS</h2>
-                                    <h5>We would love to hear what you want to say! Fill out your details to connect with our support team.</h5>
+                                    <h2>{{ section.settings.heading | escape }}</h2>
+                                    <h5>{{ section.settings.content | escape }}</h5>
                                 </div>
                                 <div class="col-12">
                                   {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
@@ -87,28 +87,30 @@
                                 </div>
                             
                                 </div>
-
+                            
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="contact-item text-center">
+                                            <i class="fas fa-phone-alt"></i>
+                                            <h6><a href="tel:+012345789">{{ section.settings.phone | escape }}</a></h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="contact-item text-center">
+                                            <i class="fas fa-envelope"></i>
+                                            <h6><a href="mailto:demo@mail.com">{{ section.settings.email | escape }}</a></h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="contact-item text-center">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <h6><a href="tel:098765443">{{ section.settings.address | escape }}</a></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             </div>
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="contact-item text-center">
-                                        <i class="fas fa-phone-alt"></i>
-                                        <h6><a href="tel:+012345789">+012 345 789</a></h6>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="contact-item text-center">
-                                        <i class="fas fa-envelope"></i>
-                                        <h6><a href="mailto:demo@mail.com">demo@mail.com</a></h6>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="contact-item text-center">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <h6><a href="tel:098765443">132 Demo Address</a></h6>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 
@@ -130,10 +132,39 @@
   "class": "section",
   "settings": [
     {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+    {
       "type": "text",
       "id": "heading",
       "default": "Contact form",
       "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "content",
+      "default": "Contact form",
+      "label": "Content"
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "default": "+012 345 789",
+      "label": "Phone"
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "default": "demo@mail.com",
+      "label": "Email"
+    },
+    {
+      "type": "text",
+      "id": "address",
+      "default": "Contact form",
+      "label": "132 Demo Address"
     }
   ],
   "presets": [
