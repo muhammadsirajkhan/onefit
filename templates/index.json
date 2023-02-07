@@ -316,6 +316,9 @@
     "cf5174d5-f7e3-4f0a-a584-0fad819811d9": {
       "type": "custom-product-loop",
       "settings": {
+        "title": "asdf",
+        "button_text": "werwer",
+        "button_link": "shopify:\/\/blogs\/news",
         "collection": "frontpage"
       }
     }
