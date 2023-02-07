@@ -295,6 +295,38 @@
         "image_right": "shopify:\/\/shop_images\/f0efccb22cdaffc16a0df720ae98f3cb_4a6b6630-cc3a-43ff-81e4-40d5c4d31682.jpg",
         "image_bg": "shopify:\/\/shop_images\/banner4_7cf97c6c-5ac3-46a5-810e-1e1352e10d6c.jpg"
       }
+    },
+    "34fd40d4-1d69-4e8c-a926-efbf7637219d": {
+      "type": "daily-drops-custom",
+      "blocks": {
+        "template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mian-banner-img.png",
+            "title": "LAST CHANCE",
+            "content": "2 for $15",
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        },
+        "template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "content": "Column",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-0",
+        "template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-1"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -306,6 +338,7 @@
     "video",
     "multicolumn",
     "8e102c2d-d773-40b7-9334-ec224cf037a8",
-    "35417832-bb6e-49d3-8daf-e2c3cce033fb"
+    "35417832-bb6e-49d3-8daf-e2c3cce033fb",
+    "34fd40d4-1d69-4e8c-a926-efbf7637219d"
   ]
 }
