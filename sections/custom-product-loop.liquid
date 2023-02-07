@@ -1,7 +1,9 @@
 <section class="product-sec">
   <div class="container">
     <div class="title text-center">
-      <h2>latest Products</h2>
+      <h2>
+        {{ section.settings.title | escape }}
+      </h2>
     </div>
     <div class="row prod-slider">
 
@@ -35,7 +37,7 @@
 
     </div>
     <div class="pro-btn text-center mt-5">
-      <a href="#" class="btn">View All</a>
+      <a href="{{section.settings.button_link}}" class="btn">{{ section.settings.button_text }}</a>
     </div>
   </div>
 </section>
@@ -54,6 +56,20 @@
     "tag": "section",
     "settings": [
       {
+        "type": "text",
+        "id": "title",
+        "default": "Multicolumn",
+        "label": "Title"
+      }, {
+        "type": "text",
+        "id": "button_text",
+        "default": "Multicolumn",
+        "label": "Button Label"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      }, {
         "type": "collection",
         "id": "collection",
         "label": "t:sections.featured-collection.settings.collection.label"
