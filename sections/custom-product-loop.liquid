@@ -1,13 +1,50 @@
-{% assign selected_collection = section.settings.collection %}
+<section class="product-sec">
+  <div class="container">
+    <div class="title text-center">
+      <h2>latest Products</h2>
+    </div>
+    <div class="row prod-slider">
 
-{% for product in collections[selected_collection].products %}
+      {% assign selected_collection = section.settings.collection %}
 
-  <h2>{{ product.title }}</h2>
-  <p>{{ product.price | money }}</p>
-  <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="{{ product.featured_image.alt | escape }}">
-{% endfor %}
+      {% for product in collections[selected_collection].products %}
+        <div class="col-md-2">
+          <div class="product-box">
+            <div class="product-img">
+              <a href="{{ product.url }}">
+                <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="">
+              </a>
+            </div>
+            <div class="product-con">
+              <h3>
+                <a href="{{ product.url }}">{{ product.title }}</a>
+              </h3>
+              <div class="price">
+                <span>$60</span>
+                <del>$199</del>
+                {{ product.price | money }}
+              </div>
+              <a href="{{ product.url }}" class="btn-link">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
 
-{% schema %}
+    </div>
+    <div class="pro-btn text-center mt-5">
+      <a href="#" class="btn">View All</a>
+    </div>
+  </div>
+</section>
+
+
+
+{% comment %}
+<h2>{{ product.title }}</h2>
+<p>{{ product.price | money }}</p>
+<img src="{{ product.featured_image.src | img_url: 'large' }}" alt="{{ product.featured_image.alt | escape }}">
+<a href="{{ product.url }}">{{ product.title }}</a>
+{% endcomment %}{% schema %}
   {
     "name": "Custom Product",
     "class": "section",
