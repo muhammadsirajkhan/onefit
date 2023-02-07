@@ -6,7 +6,7 @@
           <h2>{{ section.settings.title_main | escape }}</h2>
           <h3>{{ section.settings.title | escape }}</h3>
           <p>{{ section.settings.content | escape }}</p>
-          <a href="{{ section.settings.button_text }}" class="btn">{{ section.settings.button_link }}</a>
+          <a href="{{ section.settings.button_link }}" class="btn">{{ section.settings.button_text }}</a>
         </div>
       </div>
       <div class="col-md-7">
@@ -39,7 +39,7 @@
         "type": "text",
         "id": "title_main",
         "default": "Multicolumn",
-        "label": "t:sections.multicolumn.settings.title_main.label"
+        "label": "t:sections.multicolumn.settings.title.label"
       },
       {
         "type": "text",
