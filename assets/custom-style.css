@@ -60,3 +60,6 @@ h2.footer-block__heading {
 .main-banner .main-banner-content h3, .main-banner .main-banner-content h2 {
     color: #fff;
 }
+.contact-form {
+    width: 100%;
+}
