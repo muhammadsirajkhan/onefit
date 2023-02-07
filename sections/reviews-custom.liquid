@@ -93,3 +93,60 @@
     </div>
   </div>
 </section>
+
+
+{% schema %}
+  {
+    "name": "Reviews Custom",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Multicolumn",
+        "label": "t:sections.multicolumn.settings.title.label"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "t:sections.multicolumn.settings.button_link.label"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+          }, {
+            "type": "text",
+            "id": "title",
+            "default": "Column",
+            "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+          }, {
+            "type": "url",
+            "id": "button_link",
+            "label": "t:sections.multicolumn.settings.button_link.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Reviews Custom",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
