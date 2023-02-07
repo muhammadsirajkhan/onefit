@@ -20,9 +20,14 @@
                 <a href="{{ product.url }}">{{ product.title }}</a>
               </h3>
               <div class="price">
+                {% if product.compare_at_price > product.price %}
+                  <span>{{ product.price | money }}</span>
+                  <del>{{ product.compare_at_price | money }}</del>
+                {% else %}
+                  <span>{{ product.price | money }}</span>
+                {% endif %}
                 <span>$60</span>
                 <del>$199</del>
-                {{ product.price | money }}
               </div>
               <a href="{{ product.url }}" class="btn-link">Shop Now</a>
             </div>
