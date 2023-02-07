@@ -255,15 +255,16 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/service-ic-1.png",
-            "title": "Column1231",
+            "title": "Heading Here",
             "button_link": "shopify:\/\/pages\/contact"
           }
         },
         "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/service-ic-1.png",
             "title": "Column",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/contact"
           }
         },
         "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-2": {
@@ -280,6 +281,8 @@
         "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-2"
       ],
       "settings": {
+        "title": "POPULAR CATEGORIES",
+        "button_link": "shopify:\/\/pages\/contact"
       }
     }
   },
