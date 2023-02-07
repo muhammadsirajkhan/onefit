@@ -221,22 +221,20 @@
         "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/mian-banner-img.png",
+            "title": "123123"
           }
         },
         "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "button_link": ""
+            "title": "Column"
           }
         },
         "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "button_link": ""
+            "title": "Column"
           }
         }
       },
@@ -246,8 +244,7 @@
         "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-2"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "button_link": ""
+        "title": "Multicolumn"
       }
     }
   },
