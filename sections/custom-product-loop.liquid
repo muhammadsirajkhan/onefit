@@ -17,7 +17,7 @@
             </div>
             <div class="product-con">
               <h3>
-                <a href="{{ product.url }}">{{ product.title }}</a>
+                <a href="{{ product.url }}" class="text-truncate w-100">{{ product.title }}</a>
               </h3>
               <div class="price">
                 {% if product.compare_at_price > product.price %}
@@ -26,8 +26,6 @@
                 {% else %}
                   <span>{{ product.price | money }}</span>
                 {% endif %}
-                <span>$60</span>
-                <del>$199</del>
               </div>
               <a href="{{ product.url }}" class="btn-link">Shop Now</a>
             </div>
