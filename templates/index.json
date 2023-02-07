@@ -221,22 +221,23 @@
         "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/mian-banner-img.png",
+            "title": "Hreading",
+            "content": "Accessories are a huge part of my look and my collection is full of items from One Fit! They’re always simple yet elegant and have such amazing quality"
           }
         },
         "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-1": {
           "type": "column",
           "settings": {
             "title": "Column",
-            "button_link": ""
+            "content": "Column"
           }
         },
         "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-2": {
           "type": "column",
           "settings": {
             "title": "Column",
-            "button_link": ""
+            "content": "Column"
           }
         }
       },
@@ -246,8 +247,7 @@
         "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-2"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "button_link": ""
+        "title": "Multicolumn"
       }
     }
   },
