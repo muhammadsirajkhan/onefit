@@ -302,30 +302,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/f0efccb22cdaffc16a0df720ae98f3cb_4a6b6630-cc3a-43ff-81e4-40d5c4d31682.jpg"
           }
-        },
-        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-3": {
-          "type": "column",
-          "settings": {
-          }
-        },
-        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-4": {
-          "type": "column",
-          "settings": {
-          }
-        },
-        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-5": {
-          "type": "column",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-0",
         "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-1",
-        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-2",
-        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-3",
-        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-4",
-        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-5"
+        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-2"
       ],
       "settings": {
         "title": "Multicolumn"
